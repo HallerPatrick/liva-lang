@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-liva_parser = { path = "../live_parser" }
+liva_parser = { path = "../parser" }
 clap = "2.33.3"
 
 [profile.release]

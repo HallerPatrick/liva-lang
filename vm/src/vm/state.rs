@@ -5,7 +5,7 @@ use super::{
     CallFrame,
 };
 
-type LivaFunction = fn(&mut State, &mut Vec<CallFrame>, Vec<LvObjectRef>);
+pub type LivaFunction = fn(&mut State, &mut Vec<CallFrame>, Vec<LvObjectRef>);
 
 pub struct State {
     pub store: ObjectStore,

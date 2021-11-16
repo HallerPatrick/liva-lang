@@ -62,6 +62,7 @@ impl fmt::Display for Value {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         match self {
             Value::Double(d) => write!(f, "{}", d),
+            Value::Integer(i) => write!(f, "{}", i),
             Value::String(s) => write!(f, "{}", s),
             _ => write!(f, "{:?}", self),
         }
