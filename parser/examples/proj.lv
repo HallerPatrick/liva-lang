@@ -1,0 +1,7 @@
+import args
+
+
+
+fun main()
+    let arg = args[1]
+end

@@ -1,0 +1,15 @@
+
+
+fun hello(y)
+    let x = 3
+    print(x)
+end
+
+fun yh()
+    let hj = 4
+    print(hj)
+end
+
+let foo = 3
+
+hello(foo)

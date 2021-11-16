@@ -1,0 +1,16 @@
+[package]
+name = "liva_parser"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "liva_parser"
+path = "src/lib.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nom = "7.0.0"
+nom_locate = "4.0.0"
+lazy_static = "1.4.0"
+pretty-trait = "^0.1.2"

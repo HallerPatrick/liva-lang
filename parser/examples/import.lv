@@ -1,0 +1,8 @@
+
+
+// Look in site packages for module "hello"
+external import hello.world as w
+
+// Look for local module "hello"
+// So either hello.lv or /hello
+import hello

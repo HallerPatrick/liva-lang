@@ -1,0 +1,22 @@
+
+// Calculate the factioral of n
+fun factorial(n)
+    if n == 1 do
+        return 1
+    else
+        return n * factorial(n-1)
+    end
+end
+
+println("SOME BASIC MATH TEST")
+println("Factorial ")
+println("Expected 120")
+let fac_result = factorial(5)
+print("Got ")
+println(fac_result)
+
+if fac_result == 120 do 
+    println("Success")
+else
+    println("Failure")
+end

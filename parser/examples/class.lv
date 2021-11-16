@@ -1,0 +1,18 @@
+class Person
+
+    fun init(self, height, weight)
+        self.height = height
+        self.weight = weight 
+    end
+
+    fun get_bmi(self)
+        let w_res = self.height * self.height
+        return self.weight / w_res
+    end
+end
+
+// Hello World
+for i in [1, 2, 3, 4] do
+    let person = Person(i, i)
+    print(person.get_bmi())
+end

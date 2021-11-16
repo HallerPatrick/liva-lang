@@ -1,0 +1,11 @@
+
+class X
+    fun hello()
+        print("Hello World")
+    end
+end
+
+let x = X()
+
+x.hello()
+

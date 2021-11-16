@@ -1,0 +1,9 @@
+
+let y = 99
+
+let x = [0, 1, y]
+
+
+for i in x do
+    println(i)
+end

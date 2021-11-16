@@ -1,0 +1,20 @@
+
+
+class Foo
+    fun init(x)
+        this.bar = x
+    end
+
+    fun func()
+        return p
+    end
+end
+
+fun p()
+    return "Hello"
+end
+
+let foo = Foo("Hello")
+
+print(p())
+print(foo.func()())

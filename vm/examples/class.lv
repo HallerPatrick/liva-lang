@@ -1,0 +1,12 @@
+
+class Foo
+    fun init(x)
+        this.fou = x
+    end
+
+end
+
+
+let fo = Foo("Hello World")
+
+print(fo)
